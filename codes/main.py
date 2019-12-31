@@ -27,9 +27,9 @@ AIO_USER = "AIO_USER" # put your AIO USER here
 AIO_KEY = "AIO_KEY" # put your AIO KEY here
 AIO_CLIENT_ID = ubinascii.hexlify(machine.unique_id())  # Can be anything
 
-AIO_CHART_FEED = "iprayudi/feeds/system-status"
-AIO_RESET_FEED = "iprayudi/feeds/reset-button"
-AIO_STATUS_FEED = "iprayudi/feeds/status-button"
+AIO_CHART_FEED = "your_account/feeds/system-status" # put your feeds path here
+AIO_RESET_FEED = "your_account/feeds/reset-button" # put your feeds path here
+AIO_STATUS_FEED = "your_account/feeds/status-button" # put your feeds path here
 
 # Global variables
 curr_state = "CLOSE"
